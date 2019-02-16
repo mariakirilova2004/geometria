@@ -35,16 +35,16 @@
 
 <script type = "text/javascript">
 
-function multiplyPkv()
+function multiplyV()
 {
         num = document.getElementById("num").value;
-        document.getElementById("result").innerHTML = 4 * num;
+        document.getElementById("resultV").innerHTML = 3 * num;
 }
 
-function multiplySkv()
+function multiplyS()
 {
         numS = document.getElementById("numS").value;
-        document.getElementById("resultS").innerHTML = numS * numS;
+        document.getElementById("resultS").innerHTML = 6 * numS;
 }
 
 
@@ -69,7 +69,7 @@ function multiplySkv()
       </script>
 
 	</head>
-	<body onload = "strtTime()">
+	<body >
 	<br>
  <center>ИНОВАТИВНА ОБРАЗОВАТЕЛНА ГЕОМЕТРИЯ</center>
  <div class="line"></div>
@@ -141,31 +141,34 @@ function multiplySkv()
 <tr width="100%">
 <td>
 <br>
-<center><h1>Квадрат</h1>
+<center><h1>Куб</h1>
 
-Квадратът е правилен многоъгълник <br>с четири страни или четириъгълник с равни страни и равни ъгли.<br>
+Кубът е геометрично тяло, което има: <br>
+шест еднакви стени с формата на квадрат;<br>
+дванадесет ръба с еднаква дължина;<br>
+и осем върха.<br>
 
 <table  align="center">
 <tr>
-<td align="center"><font >Периметър<br>P = 4 . a</font></td>
-<td align="center"><img src="images/perimeter.gif" width="200" ></td>
+<td align="center"><font >Обем<br>V = a.a.a</font></td>
+<td align="center"><img src="images/cube.gif" width="200" ></td>
 </tr>
 <tr>
-<td align="center"><font >Изчислете <br>периметъра<br> на квадрат</font></td>
+<td align="center"><font >Изчислете <br>обема<br> на куба</font></td>
 <td align="center">Въведете <br>страната<br>
 <form>
 а =<input type="text" id="num" /><br>
-<br><input type="button" onClick="multiplyPkv()" Value="Изчисли периметъра P" />
-<br><br>P = <span id = "result"></span>
+<br><input type="button" onClick="multiplyV()" Value="Изчисли обема" />
+<br><br>V = <span id = "resultV"></span>
 </form>
 </td>
 </tr>
 <tr>
-<td align="center"><font >Лице<br>S = a . a</font></td>
+<td align="center"><font >Повърхнина<br>S = 6.a</font></td>
 <td align="center">Въведете <br>страната<br>
 <form>
 а =<input type="text" id="numS" /><br>
-<br><input type="button" onClick="multiplySkv()" Value="Изчисли лицето S" />
+<br><input type="button" onClick="multiplyS()" Value="Изчисли повърхнината S" />
 <br><br>S = <span id = "resultS"></span>
 </form></td>
 </tr>
@@ -175,12 +178,12 @@ function multiplySkv()
 
 <table>
 <tr>
-<td align="center"><font >Бисквита</font></td>
-<td align="center"><img src="images/cracker.png" width="200" height="200"></td>
+<td align="center"><font >Леден куб</font></td>
+<td align="center"><img src="images/cube-ice.jpg" width="200" height="200"></td>
 </tr>
 <tr>
-<td align="center"><font >Часовник</font></td>
-<td align="center"><img src="images/clock.jpg" width="200" height="200"></td>
+<td align="center"><font >Саксия</font></td>
+<td align="center"><img src="images/cube-nature1.jpg" width="200" height="200"></td>
 </tr>
 <tr>
 <td align="center"><font >В природата</font></td>
