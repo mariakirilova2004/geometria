@@ -1,0 +1,230 @@
+
+<html>
+	<head>
+		<title>ИНОВАТИВНА ОБРАЗОВАТЕЛНА ГЕОМЕТРИЯ</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/css.css" />
+		<link href="http://allfont.net/allfont.css?fonts=roboto-slab-regular" rel="stylesheet" type="text/css" />
+		<meta charset="utf-8" />
+    <style>
+ body { font-family: 'Roboto Slab Regular', arial;
+        font-size: 20px;
+        text-shadow: 1px 1px 1px #aaa;
+		text-color: blue;
+		}
+  ul {list-style:none;padding:0;margin:auto;background:#0099FF;opacity: 0.95;width:100%; text-align:center;}
+  li ul {display: none; text-align:center;}
+  ul li {display: block;position:relative;float:left;border:1px solid #000}
+  ul li a {display: block;background: #0066FF;padding:5px 10px 5px 10px;text-decoration:none;white-space: nowrap;color: #fff;opacity: 0.8;text-align:center;}
+  ul li a:hover {background: #0099FF;}
+  li:hover a {background: #0099FF;}
+  li:hover ul {display: block; position: absolute;}
+  li:hover li {float: none;}
+  li:hover li a:hover {background: #0066FF;}
+  #nav li ul li {border-top: 0px;}
+  .line{width: 100%;height: 30px;border-bottom: 10px solid #0099FF;opacity: 0.9;}
+  h1   {color: #0066FF;font-size: 25px;}
+  h2   {color: #0066FF;font-size: 20px;}
+  
+ 
+}
+  
+</style>
+
+
+<script type = "text/javascript">
+
+function multiplyPkv()
+{
+        num = document.getElementById("num").value;
+        document.getElementById("result").innerHTML = 4 * num;
+}
+
+function multiplySkv()
+{
+        numS = document.getElementById("numS").value;
+        document.getElementById("resultS").innerHTML = numS * numS;
+}
+
+
+          function showImgNext() {
+              a = (a === img.length - 1) ? 0 : a + 1;
+              document.getElementById("img").src = img[a];
+          }
+
+          function showImgPrev() {
+              a = (a <= 0) ? img.length - 1 : x - 1;
+              document.getElementById("img").src = img[a];
+          }
+
+          function strtTime() {
+              setInterval(showImgNext, 2000);
+          }
+
+          var img = [], a = -1;
+          img[0] = "images/img1.png";
+          img[1] = "images/img2.png";
+          img[2] = "images/img3.png";
+      </script>
+
+	</head>
+	<body onload = "strtTime()">
+	<br>
+ <center>ИНОВАТИВНА ОБРАЗОВАТЕЛНА ГЕОМЕТРИЯ</center>
+ <div class="line"></div>
+ <table width="100%" align="center">
+ <tr align="center">
+ <td>
+
+				<div >	
+						<ul >
+								<li ><a href="index.html">     Начало     </a></li>
+							
+								<li><a href="vr.html">  Виртуална реалност  </a></li>
+								<li><a href="dance.html">  Танци и геометрия  </a></li>
+								<li><a href="avtor.html">    За автора    </a></li>
+									<li>
+									<a href="#"> Геометрични фигури </a>
+									<ul>
+										<li>
+											<a href="kvadrat.html"> Квадрат </a>
+											
+										</li>
+										<li>
+											<a href="tri.html"> Триъгълник </a>
+											
+										</li>
+										<li>
+											<a href="krug.html"> Кръг </a>
+											
+										</li>
+										<li>
+											<a href="prav.html"> Правоъгълник </a>
+											
+										</li>
+										</ul>
+								</li>
+								<li>
+									<a href="#"> 3D Геометрични тела </a>
+									<ul>
+										<li>
+											<a href="konus.html"> Конус </a>
+											
+										</li>
+										<li>
+											<a href="sfera.html"> Сфера </a>
+											
+										</li>
+										<li>
+											<a href="prizma.html"> Призма </a>
+											
+										</li>
+										<li>
+											<a href="paral.html"> Паралелепипед </a>
+											
+										</li>
+										<li>
+											<a href="cili.html">Цилиндър</a>
+											
+										</li>
+									</ul>
+								</li>
+							</ul>
+				</div><br>
+			
+		<table width="100%">
+<tr width="100%">
+<td>
+<br>
+<center><h1>Квадрат</h1>
+
+Квадратът е правилен многоъгълник <br>с четири страни или четириъгълник с равни страни и равни ъгли.<br>
+
+<table  align="center">
+<tr>
+<td align="center"><font >Периметър<br>P = 4 . a</font></td>
+<td align="center"><img src="images/perimeter.gif" width="200" ></td>
+</tr>
+<tr>
+<td align="center"><font >Изчислете <br>периметъра<br> на квадрат</font></td>
+<td align="center">Въведете <br>страната<br>
+<form>
+а =<input type="text" id="num" /><br>
+<br><input type="button" onClick="multiplyPkv()" Value="Изчисли периметъра P" />
+<br><br>P = <span id = "result"></span>
+</form>
+</td>
+</tr>
+<tr>
+<td align="center"><font >Лице<br>S = a . a</font></td>
+<td align="center">Въведете <br>страната<br>
+<form>
+а =<input type="text" id="numS" /><br>
+<br><input type="button" onClick="multiplySkv()" Value="Изчисли лицето S" />
+<br><br>S = <span id = "resultS"></span>
+</form></td>
+</tr>
+</table>
+<br>
+<h2>Примери около нас</h2>
+
+<table>
+<tr>
+<td align="center"><font >Бисквита</font></td>
+<td align="center"><img src="images/cracker.png" width="200" height="200"></td>
+</tr>
+<tr>
+<td align="center"><font >Часовник</font></td>
+<td align="center"><img src="images/clock.jpg" width="200" height="200"></td>
+</tr>
+<tr>
+<td align="center"><font >В природата</font></td>
+<td align="center"><img src="images/kvadrati-zemia.jpg" width="200" height="200"></td>
+</tr>
+</table>
+<br>
+<h2>Оптическа илюзия</h2>
+
+<table>
+<tr>
+<td align="center"><font >Триизмерна илюзия</font></td>
+<td align="center"><img src="images/optical-kvadrat3.jpg" width="200" height="200"></td>
+</tr>
+<tr>
+<td align="center"><font >Триизмерна илюзия</font></td>
+<td align="center"><img src="images/optical-kvadrat4.gif" width="200" height="200"></td>
+</tr>
+<tr>
+<td align="center"><font >Илюзия за криви линии</font></td>
+<td align="center"><img src="images/optical-kvadrat5.jpg" width="200" height="200"></td>
+</tr>
+</table>
+
+</td>
+</tr>
+
+</table>
+<br>
+<h2>Задача</h2>
+
+<table>
+<tr>
+<td align="center"><font >Пребройте квадратите</font></td>
+<td align="center"><img src="images/kvadrat.png" width="200" ><br>
+<a href="kvadrat-zadacha.html" target="_blank" onClick="window.open('kvadrat-zadacha.html','pagename','resizable,height=480,width=480'); return false;">Провери решението </a>
+</td>
+</tr>
+</table>
+</center>
+		<div class="line"></div>
+       			<center>17-та Национална олимпиада по Информационни технологии<br>
+						Автор: Мария Кирилова - МГ "Баба Тонка" - гр. Русе
+				</center>
+</td>
+</tr>
+</table>
+		
+
+	</body>
+</html>
