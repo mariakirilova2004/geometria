@@ -35,16 +35,16 @@
 
 <script type = "text/javascript">
 
-function multiplyV()
+function multiplyPkv()
 {
         num = document.getElementById("num").value;
-        document.getElementById("resultV").innerHTML = 3 * num;
+        document.getElementById("result").innerHTML = 4 * num;
 }
 
-function multiplyS()
+function multiplySkv()
 {
         numS = document.getElementById("numS").value;
-        document.getElementById("resultS").innerHTML = 6 * numS;
+        document.getElementById("resultS").innerHTML = numS * numS;
 }
 
 
@@ -69,7 +69,7 @@ function multiplyS()
       </script>
 
 	</head>
-	<body >
+	<body onload = "strtTime()">
 	<br>
  <center>ИНОВАТИВНА ОБРАЗОВАТЕЛНА ГЕОМЕТРИЯ</center>
  <div class="line"></div>
@@ -82,7 +82,7 @@ function multiplyS()
 								<li ><a href="index.html">     Начало     </a></li>
 							
 								<li><a href="vr.html">  Виртуална реалност  </a></li>
-								li><a href="holo.html">  Холограми  </a></li>
+								<li><a href="holo.html">  Холограми  </a></li>
 								<li><a href="dance.html">  Танци и геометрия  </a></li>
 								<li><a href="avtor.html">    За автора    </a></li>
 									<li>
@@ -142,70 +142,54 @@ function multiplyS()
 <tr width="100%">
 <td>
 <br>
-<center><h1>Куб</h1>
+<center><h1>Правоъгълник</h1>
 
-Кубът е геометрично тяло, което има: <br>
-шест еднакви стени с формата на квадрат;<br>
-дванадесет ръба с еднаква дължина;<br>
-и осем върха.<br>
+Правоъгълникът е четириъгълник, на който всичките му ъгли са прави.<br>
+Срещуположните страни са успоредни и равни по дължина.<br>
+Диагоналите са с еднаква дължина, взаимно се разполовяват, но не са взаимно перпендикулярни.<br>
+
 
 <table  align="center">
 <tr>
-<td align="center"><font >Обем<br>V = a.a.a</font></td>
-<td align="center"><img src="images/cube.gif" width="200" ></td>
+<td align="center"><br><font >Периметър<br>C = 2. a . b</font></td>
+<td align="center"><img src="images/pr_prv.gif" width="200" ></td>
 </tr>
+
 <tr>
-<td align="center"><font >Изчислете <br>обема<br> на куба</font></td>
-<td align="center">Въведете <br>страната<br>
-<form>
-а =<input type="text" id="num" /><br>
-<br><input type="button" onClick="multiplyV()" Value="Изчисли обема" />
-<br><br>V = <span id = "resultV"></span>
-</form>
-</td>
+<td align="center"><br><br><font >Лице<br>S = a. b</font><br></td>
+<td align="center"><img src="images/lice_prv.png" width="200" ></td>
 </tr>
-<tr>
-<td align="center"><font >Повърхнина<br>S = 6.a</font></td>
-<td align="center">Въведете <br>страната<br>
-<form>
-а =<input type="text" id="numS" /><br>
-<br><input type="button" onClick="multiplyS()" Value="Изчисли повърхнината S" />
-<br><br>S = <span id = "resultS"></span>
-</form></td>
-</tr>
+
 </table>
-<br>
+<br><br>
 <h2>Примери около нас</h2>
 
 <table>
 <tr>
-<td align="center"><font >Леден куб</font></td>
-<td align="center"><img src="images/cube-ice.jpg" width="200" height="200"></td>
+<td align="center"><font >Шоколад</font></td>
+<td align="center"><img src="images/chocolate.jpg" width="200" ></td>
 </tr>
 <tr>
-<td align="center"><font >Саксия</font></td>
-<td align="center"><img src="images/cube-nature1.jpg" width="200" height="200"></td>
+<td align="center"><font >Басейн</font></td>
+<td align="center"><img src="images/pool.jpg" width="200" ></td>
 </tr>
 <tr>
-<td align="center"><font >В природата</font></td>
-<td align="center"><img src="images/cubic_house.jpg" width="200"></td>
+<td align="center"><font >Картина</font></td>
+<td align="center"><img src="images/frame.jpg" width="200" ></td>
 </tr>
 </table>
-<br>
+<br><br>
 <h2>Оптическа илюзия</h2>
 
 <table>
 <tr>
 <td align="center"><font >Триизмерна илюзия</font></td>
-<td align="center"><img src="images/optical-kvadrat3.jpg" width="200" height="200"></td>
+<td align="center"><img src="images/opt-rectangle.jpg" width="300" ></td>
 </tr>
+
 <tr>
 <td align="center"><font >Триизмерна илюзия</font></td>
-<td align="center"><img src="images/optical-kvadrat4.gif" width="200" height="200"></td>
-</tr>
-<tr>
-<td align="center"><font >Илюзия за криви линии</font></td>
-<td align="center"><img src="images/optical-kvadrat5.jpg" width="200" height="200"></td>
+<td align="center"><img src="images/rectangular_illusions.jpg" width="300" ></td>
 </tr>
 </table>
 
@@ -218,9 +202,9 @@ function multiplyS()
 
 <table>
 <tr>
-<td align="center"><font >Пребройте квадратите</font></td>
-<td align="center"><img src="images/kvadrat.png" width="200" ><br>
-<a href="kvadrat-zadacha.html" target="_blank" onClick="window.open('kvadrat-zadacha.html','pagename','resizable,height=480,width=480'); return false;">Провери решението </a>
+<td align="center"><font >Пребройте правоъгълниците</font></td>
+<td align="center"><img src="images/pravoygylnik.png" width="200" ><br>
+<a href="prav-zadacha.html" target="_blank" onClick="window.open('prav-zadacha.html','pagename','resizable,height=500,width=500'); return false;">Провери решението </a>
 </td>
 </tr>
 </table>

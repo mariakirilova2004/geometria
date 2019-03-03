@@ -1,4 +1,3 @@
-
 <html>
 	<head>
 		<title>ИНОВАТИВНА ОБРАЗОВАТЕЛНА ГЕОМЕТРИЯ</title>
@@ -9,23 +8,23 @@
 		<meta charset="utf-8" />
     <style>
  body { font-family: 'Roboto Slab Regular', arial;
-        font-size: 20px;
+        font-size: 16px;
         text-shadow: 1px 1px 1px #aaa;
 		text-color: blue;
 		}
   ul {list-style:none;padding:0;margin:auto;background:#0099FF;opacity: 0.95;width:100%; text-align:center;}
   li ul {display: none; text-align:center;}
   ul li {display: block;position:relative;float:left;border:1px solid #000}
-  ul li a {display: block;background: #0066FF;padding:5px 10px 5px 10px;text-decoration:none;white-space: nowrap;color: #fff;opacity: 0.8;text-align:center;}
+  ul li a {display: block;background: #0066FF;padding:5px 10px 5px 10px;text-decoration:none;white-space:nowrap;color:#FFFFFF;opacity:0.9;text-align:center;}
   ul li a:hover {background: #0099FF;}
   li:hover a {background: #0099FF;}
   li:hover ul {display: block; position: absolute;}
   li:hover li {float: none;}
   li:hover li a:hover {background: #0066FF;}
   #nav li ul li {border-top: 0px;}
-  .line{width: 100%;height: 30px;border-bottom: 10px solid #0099FF;opacity: 0.9;}
-  h1   {color: #0066FF;font-size: 25px;}
-  h2   {color: #0066FF;font-size: 20px;}
+  .line{height: 30px;border-bottom: 10px solid #0099FF;}
+   h1   {color: #0066FF;font-size: 23px;}
+  h2   {color: #0066FF;font-size: 18px;}
   
  
 }
@@ -34,20 +33,6 @@
 
 
 <script type = "text/javascript">
-
-function multiplyPkv()
-{
-        num = document.getElementById("num").value;
-        document.getElementById("result").innerHTML = 4 * num;
-}
-
-function multiplySkv()
-{
-        numS = document.getElementById("numS").value;
-        document.getElementById("resultS").innerHTML = numS * numS;
-}
-
-
           function showImgNext() {
               a = (a === img.length - 1) ? 0 : a + 1;
               document.getElementById("img").src = img[a];
@@ -59,33 +44,63 @@ function multiplySkv()
           }
 
           function strtTime() {
-              setInterval(showImgNext, 2000);
+              setInterval(showImgNext, 500);
           }
 
           var img = [], a = -1;
-          img[0] = "images/img1.png";
-          img[1] = "images/img2.png";
-          img[2] = "images/img3.png";
+          img[0] = "images/nachalo/2.jpg";
+          img[1] = "images/nachalo/3.jpg";
+          img[2] = "images/nachalo/4.jpg";
+		  img[3] = "images/nachalo/5.jpg";
+          img[4] = "images/nachalo/6.jpg";
+          img[5] = "images/nachalo/7.jpg";
+		  img[6] = "images/nachalo/8.jpg";
+          img[7] = "images/nachalo/9.jpg";
+          img[8] = "images/nachalo/10.jpg";
+		  img[9] = "images/nachalo/11.jpg";
+          img[10] = "images/nachalo/12.jpg";
+          img[11] = "images/nachalo/13.jpg";
+		  img[12] = "images/nachalo/14.jpg";
+          img[13] = "images/nachalo/15.jpg";
+          img[14] = "images/nachalo/16.jpg";
+		  img[15] = "images/nachalo/17.jpg";
+          img[16] = "images/nachalo/18.jpg";
+          img[17] = "images/nachalo/19.jpg";
+		  img[18] = "images/nachalo/20.jpg";
+          img[19] = "images/nachalo/21.jpg";
+          img[20] = "images/nachalo/22.jpg";
+		  img[21] = "images/nachalo/23.jpg";
+          img[22] = "images/nachalo/24.jpg";
+          img[23] = "images/nachalo/25.jpg";
+		  img[24] = "images/nachalo/26.jpg";
+          img[25] = "images/nachalo/27.jpg";
+		  img[26] = "images/nachalo/28.jpg";
+          img[27] = "images/nachalo/29.jpg";
+          img[28] = "images/nachalo/30.jpg";
+		  img[29] = "images/nachalo/31.jpg";
+          img[30] = "images/nachalo/32.jpg";
+          img[31] = "images/nachalo/33.jpg";
+		  img[32] = "images/nachalo/34.jpg";
+          img[33] = "images/nachalo/35.jpg";
+          img[34] = "images/nachalo/36.jpg";
+          
       </script>
 
 	</head>
-	<body >
-	<br>
- <center>ИНОВАТИВНА ОБРАЗОВАТЕЛНА ГЕОМЕТРИЯ</center>
- <div class="line"></div>
- <table align="center">
- <tr align="center">
- <td>
-
+	<body onload = "strtTime()">
+	<table align="center">
+	<tr><div class="line"></div>
+	 <h1>Иновативна образователна геометрия</h1>
 				<div >	
 						<ul >
-								<li ><a href="index.html">     Начало     </a></li>
+								<li ><a href="index.html"> Начало </a></li>
 							
-								<li><a href="vr.html">  Виртуална реалност  </a></li>
+								<li><a href="vr.html"> Виртуална реалност </a></li>
 								<li><a href="holo.html"> Холограми </a></li>
-								<li><a href="dance.html">  Танци и геометрия  </a></li>
-								<li>
-									<a href="#"> Геометрични фигури </a>
+								<li><a href="dance.html"> Танци и геометрия </a></li>
+								
+									<li>
+									<a href="kvadrat.html""> Геометрични фигури </a>
 									<ul>
 										<li>
 											<a href="kvadrat.html"> Квадрат </a>
@@ -108,7 +123,7 @@ function multiplySkv()
 								<li>
 									<a href="#"> Геометрични тела </a>
 									<ul>
-									<li>
+										<li>
 											<a href="cub.html"> Куб </a>
 											
 										</li>
@@ -135,12 +150,9 @@ function multiplySkv()
 									</ul>
 								</li>
 							</ul>
-				</div><br>
-			
-		<table width="100%">
-<tr width="100%">
-<td>
-<br>
+				</div>
+	</center>
+	<br>
 <center><h1>За автора</h1>
 
 Мария Кирилова е ученичка в 8 в клас на Математическата гимназия "Баба Тонка".<br>
@@ -151,13 +163,11 @@ function multiplySkv()
 
 
 </center>
-		<div class="line"></div>
-       			<center>17-та Национална олимпиада по Информационни технологии<br>
-						<a href="avtor.html">Автор: Мария Кирилова - МГ "Баба Тонка" - гр. Русе</a>
-				</center>
-</td>
-</tr>
-</table>
+<div class="line"></div>
+17-та Национална олимпиада по Информационни технологии<br>
+<a href="avtor.html">Автор: Мария Кирилова - МГ "Баба Тонка" - гр. Русе</a>
+			
+
 		
 
 	</body>
