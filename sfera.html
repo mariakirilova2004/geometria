@@ -33,40 +33,7 @@
 </style>
 
 
-<script type = "text/javascript">
 
-function multiplyV()
-{
-        num = document.getElementById("num").value;
-        document.getElementById("resultV").innerHTML = 3 * num;
-}
-
-function multiplyS()
-{
-        numS = document.getElementById("numS").value;
-        document.getElementById("resultS").innerHTML = 6 * numS;
-}
-
-
-          function showImgNext() {
-              a = (a === img.length - 1) ? 0 : a + 1;
-              document.getElementById("img").src = img[a];
-          }
-
-          function showImgPrev() {
-              a = (a <= 0) ? img.length - 1 : x - 1;
-              document.getElementById("img").src = img[a];
-          }
-
-          function strtTime() {
-              setInterval(showImgNext, 2000);
-          }
-
-          var img = [], a = -1;
-          img[0] = "images/img1.png";
-          img[1] = "images/img2.png";
-          img[2] = "images/img3.png";
-      </script>
 
 	</head>
 	<body >
@@ -142,70 +109,54 @@ function multiplyS()
 <tr width="100%">
 <td>
 <br>
-<center><h1>Куб</h1>
+<center><h1>Сфера</h1>
 
-Кубът е геометрично тяло, което има: <br>
-шест еднакви стени с формата на квадрат;<br>
-дванадесет ръба с еднаква дължина;<br>
-и осем върха.<br>
+Сфера е повърхнина в пространството, която се получава чрез въртене на окръжност около неин диаметър.<br>
+Обединението от точките върху сферата и тези във вътрешността ѝ се нарича кълбо.<br>
 
 <table  align="center">
 <tr>
-<td align="center"><font >Обем<br>V = a.a.a</font></td>
-<td align="center"><img src="images/cub.gif" width="200" ></td>
+<td align="center"><font >Сфера</font></td>
+<td align="center"><img src="images/Sphere_rotating.gif" width="200" ></td>
 </tr>
 <tr>
-<td align="center"><font >Изчислете <br>обема<br> на куба</font></td>
-<td align="center">Въведете <br>страната<br>
-<form>
-а =<input type="text" id="num" /><br>
-<br><input type="button" onClick="multiplyV()" Value="Изчисли обема" />
-<br><br>V = <span id = "resultV"></span>
-</form>
+<td align="center"><br><font >Кълбо</font></td>
+<td align="center"><img src="images/sfera.gif" width="200" ></td>
 </td>
 </tr>
 <tr>
-<td align="center"><font >Повърхнина<br>S = 6.a</font></td>
-<td align="center">Въведете <br>страната<br>
-<form>
-а =<input type="text" id="numS" /><br>
-<br><input type="button" onClick="multiplyS()" Value="Изчисли повърхнината S" />
-<br><br>S = <span id = "resultS"></span>
-</form></td>
+<td align="center"><br><font >Обем на кълбо<br>V = 4/3 . 3,14 .r.r.r</font></td>
+<td align="center"><img src="images/sfera-obem.jpg" width="200" ></td>
+</td>
 </tr>
+
+
 </table>
 <br>
 <h2>Примери около нас</h2>
 
 <table>
 <tr>
-<td align="center"><font >Леден куб</font></td>
-<td align="center"><img src="images/cube-ice.jpg" width="200" height="200"></td>
+<td align="center"><font >Морска перла</font></td>
+<td align="center"><img src="images/sea_pearl.jpg" width="200" height="200"></td>
 </tr>
 <tr>
-<td align="center"><font >Саксия</font></td>
-<td align="center"><img src="images/cube-nature1.jpg" width="200" height="200"></td>
+<td align="center"><font >Планета</font></td>
+<td align="center"><img src="images/planet.jpg" width="200"></td>
 </tr>
-<tr>
-<td align="center"><font >Кубични къщи</font></td>
-<td align="center"><img src="images/cubic_house.jpg" width="200"></td>
-</tr>
-<tr>
-<td align="center"><font >В природата <br>Минерал пирит</font></td>
-<td align="center"><img src="images/pyrit.jpg" width="200"></td>
-</tr>
+
 </table>
 <br>
 <h2>Оптическа илюзия</h2>
 
 <table>
 <tr>
-<td align="center"><font >Триизмерна илюзия</font></td>
-<td align="center"><img src="images/cube-optical.jpg" width="200" height="200"></td>
+<td align="center"><font >Движещи се сфери</font></td>
+<td align="center"><img src="images/floating-spheres.jpg" width="250" </td>
 </tr>
 <tr>
-<td align="center"><font >Триизмерна илюзия</font></td>
-<td align="center"><img src="images/cube-optical2.jpg" width="200" height="200"></td>
+<td align="center"><br><br><font >Движещa се сферa</font></td>
+<td align="center"><img src="images/sfera_optical.png" width="250" ></td>
 </tr>
 </table>
 
