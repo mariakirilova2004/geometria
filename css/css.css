@@ -5,7 +5,8 @@ body { font-family: 'Roboto Slab Regular', arial;
 		}
   ul {list-style:none;padding:0;margin:auto;background:#0099FF;opacity: 0.95;width:100%; text-align:center;}
   li ul {display: none; text-align:center;}
-  ul li {display: block;position:relative;float:left;border:1px solid #000}
+  ul li {display: inline-block;position:relative;border:1px solid #000}
+  li > ul li {display: block;position:relative;float:left;border:1px solid #000}
   ul li a {display: block;background: #0066FF;padding:5px 10px 5px 10px;text-decoration:none;white-space: nowrap;color: #fff;opacity: 0.8;text-align:center;}
   ul li a:hover {background: #0099FF;}
   li:hover a {background: #0099FF;}
